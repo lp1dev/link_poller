@@ -18,7 +18,7 @@ def log(data):
 
 def make_request():
   global last_output
-  r = requests.post(url, data=data, headers=headers)
+  r = requests.post(url, headers=headers)
   output = {"text":r.text, "status_code":r.status_code}
   if last_output is None:
     last_output = output
