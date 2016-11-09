@@ -3,6 +3,11 @@
 ## Requirements
 
 - Python3.X
+- python-pip
+
+## Install
+
+```pip install -r requirements.txt```
 
 ## Usage
 
